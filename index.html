@@ -1,0 +1,1152 @@
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
+  <link href="./assets/images/favicon.png" rel="icon" />
+  <title>Documentazione - PacMan</title>
+  <meta name="description" content="Your ThemeForest item Name and description">
+  <meta name="author" content="harnishdesign.net">
+  <!-- Stylesheet
+  ============================== -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" type="text/css" href="./assets/vendor/bootstrap/css/bootstrap.min.css" />
+  <!-- Font Awesome Icon -->
+  <link rel="stylesheet" type="text/css" href="./assets/vendor/font-awesome/css/all.min.css" />
+  <!-- Magnific Popup -->
+  <link rel="stylesheet" type="text/css" href="./assets/vendor/magnific-popup/magnific-popup.min.css" />
+  <!-- Highlight Syntax -->
+  <link rel="stylesheet" type="text/css" href="./assets/vendor/highlight.js/styles/github.css" />
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" type="text/css" href="./assets/css/stylesheet.css" />
+  <style>
+    .img {
+      width: 100px;
+      height: auto;
+    }
+
+    th {
+      height: 8vh;
+    }
+  </style>
+</head>
+
+<body data-spy="scroll" data-target=".idocs-navigation" data-offset="125">
+
+  <!-- Preloader -->
+  <div class="preloader">
+    <div class="lds-ellipsis">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+  <!-- Preloader End -->
+
+  <!-- Document Wrapper   
+  =============================== -->
+  <div id="main-wrapper">
+
+
+
+    <!-- Content
+    ============================ -->
+    <div id="content" role="main">
+
+      <!-- Sidebar Navigation
+    ============================ -->
+      <div class="idocs-navigation bg-dark docs-navigation-dark">
+        <ul class="nav flex-column ">
+          <li class="nav-item"><a class="nav-link active" href="#start">Inizio</a>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#progetto">Il progetto</a>
+            <ul class="nav flex-column">
+              <li class="nav-item"><a class="nav-link" href="./Project/index.html">Link al progetto</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#descrizione_progetto">Descrizione tecnica</a>
+            <ul class="nav flex-column">
+              <li class="nav-item"><a class="nav-link" href="#pacman">PacMan</a></li>
+              <li class="nav-item"><a class="nav-link" href="#blinky">Blinky</a></li>
+              <li class="nav-item"><a class="nav-link" href="#inky">Inky</a></li>
+              <li class="nav-item"><a class="nav-link" href="#pinky">Pinky</a></li>
+              <li class="nav-item"><a class="nav-link" href="#clyde">Clyde</a></li>
+              <li class="nav-item"><a class="nav-link" href="#points">Points</a></li>
+              <li class="nav-item"><a class="nav-link" href="#life">Life</a></li>
+              <li class="nav-item"><a class="nav-link" href="#field">Field</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#wireframes">Wireframes</a></li>
+          </li>
+
+        </ul>
+      </div>
+      <div class="idocs-content">
+        <div class="container">
+
+          <section id="start">
+            <h1>PacMan</h1>
+            <p class="lead">Ricreazione del gioco PacMan</p>
+            <hr>
+            <div class="row">
+              <div class="col-sm-6 col-lg-4">
+                <ul class="list-unstyled">
+                  <li><strong>Classe/Anno:</strong>
+                    <ul>
+                      <li>4^C informatica - 2023/2024</li>
+                    </ul>
+                  <li><strong>Studenti:</strong></li>
+                  <ul>
+                    <li>Avveduto Luca</li>
+                    <li>Ripamonti Angelo</li>
+                    <li>Kotis Alexandros</li>
+                  </ul>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-lg-4">
+                <ul class="list-unstyled">
+                  <li><strong class="font-weight-700">Creato:</strong>
+                    <ul>
+                      <li>09/05/2024</li>
+                    </ul>
+                  <li><strong>Ultima modifica:</strong>
+                    <ul>
+                      <li>20/05/2024</li>
+                    </ul>
+                </ul>
+              </div>
+            </div>
+          </section>
+
+          <hr class="divider">
+
+          <section id="progetto">
+            <h2>Descrizione del progetto</h2>
+            <div class="row">
+              <p> Il nostro Progetto, consiste nella <b>ricreazione del gioco del PacMan</b>, il quale è composto da una
+                <b>mappa</b>, dal
+                <b>personaggio PacMan</b> e dai <b>quattro Fantasmini</b>. Ogni volta che il giocatore mangerà tutti i
+                punti
+                all'interno della mappa evitando di essere mangiato a sua volta, passerà al livello
+                successivo. Se però il giocatore verrà mangiato, perderà una vita (le vite ad ogni livello sono
+                tre).<br><strong><b>Informazioni specifiche</b></strong>:
+              </p>
+            </div>
+            <div class="row">
+              <p> <b>Mappa</b>: la mappa non cambia ad ogni livello </p>
+            </div>
+            <div class="row">
+              <p> <b>Punteggio</b>: I punti guadagnati dal consumabile dipendono dal tipo di oggetto. </p>
+            </div>
+            <div class="row">
+              <p> <b>Fantasmini</b>: Ogni fantasmino ha un suo compertamento all'interno della mappa </p>
+            </div>
+            <section id="link">
+              <a href="./Project/index.html">Clicca per giocare a PacMan</a>
+            </section>
+          </section>
+
+          <hr class="divider">
+
+          <section id="descrizione_progetto">
+            <h2>Descrizione tecnica</h2>
+            <div class="row">
+              <p>
+                Il gioco viene avviato tramite la funzione main, richiamata in maniera perpetua da un setInterval. Essa
+                funziona con una gestione di schermate semplice usante un array di booleane, esso serve a distinguere le
+                varie schermate, il gioco, la richiesta dello username e infine la Hall Of Fame. <br>Nella prima
+                schermata abbiamo gestito le animazioni all'interno del gioco, che esse a loro volta sono gestite con
+                una variabile frame, che viene incrementata ogni volta
+                che
+                viene richiamata la funzione. Ogni 15 frame, viene richiamata la funzione che ridisegna tutti i
+                personaggi e oggetti con le nuove posizioni. In questa schermata abbiamo fatto un controllo per inserire
+                un nuovo consumabile ogni 2 livelli, un controllo per gestire il tempo dei fantasmini da spaventati ed
+                uno per controntrollare se il gioco finisse per la fine delle vite.<br>La seconda schermata è molto
+                semplice, essendo solamente la form per richiedere lo username da poi salvare sulla cache remota. Essa
+                consiste in un controllo, che verifica se il giocatore ha già un username registrato, ciò lo facciamo
+                tramite LocalStorage, con l'ausilio di una variabile che in caso in cui essa fosse inizializzata allora
+                saltiamo la schermata di form, altrimenti la mostriamo e gestiamo il resto con il metodo onclick del
+                bottone. Questo metodo consiste in un controllo dell'input ricevuto, evitando che sia nullo o vuoto.
+                Dopo il controllo, salviamo tutto nell'array e nel localStorage, per poi salvarlo pure nella cache
+                remota; altrimenti se lo username è già esistente chiediamo semplicemente di inserire un username
+                diverso. Una volta terminata la richiesta di username passiamo alla schermata successiva, nonchè ultima,
+                la Hall Of Fame, che consiste nella visualizzazione della Top 5 dei giocatori con il maggior numero di
+                punti, ed in questa schermata facciamo anche apparire il bottone per giocare ancora. Anche questo è un
+                metodo che consiste nell'aggiornare la pagina, e di conseguenza resettare l'intero programma.
+                <br><br>Un'altra funzione che usiamo è la funzione reset() essa ci aiuta a resettare tutto il gioco.
+                Come prima cosa controlliamo se le vite sono pari a 0, e in caso le riportiamo al loro numero standard
+                (3), successivamente copiamo la mappa per creare quella dei punti, e contiamo quanti punti sono presenti
+                in essa. Successivamente inseriamo nella mappa dei punti i 4 powerup, di cui parliamo nella sezione <a
+                  href="#points">Points</a>, infine resettiamo le ultime variabili sempre legate ai punti e livelli.
+                Dopo tutto ciò resetta le posizioni dei fantasmini e di pacman, per far poi ripartire tutto.
+              </p><br><br>
+              <p>Ogni fantasmino avrà un metodo "behavior" che riguarda il comportamento di esso, ed un dizionario
+                blueghost dove all'interno anch'esso avrà un metodo
+                "behavior" per il comportamento del fantasmino quando il pacman mangia un power up</p>
+            </div>
+            <section id="pacman">
+              <div class="row">
+                <p><strong>Oggetto <b>Pac-Man</b>:</strong><br>
+                  Questo oggetto rappresenta il <u>persongaggio principale</u>, che viene comandato dall'utente tramite
+                  l'utilizzo delle freccette o della combinazione di tasti "WASD" e ha le seguenti chiavi:
+                <ul>
+                  <li>diam: diametro del pacman</li>
+                  <li>i: riga attuale nella matrice della mappa, indica la sua posizione tra le righe</li>
+                  <li>j: colonna attuale nella matrice della mappa, indica la sua posizione tra le colonne</li>
+                  <li>up: funzione che gestisce l'animazione ed il movimento del pacman verso l'alto utilizzando il
+                    seguente algoritmo:
+                    <ul>
+                      <li>Definisco due liste:
+                        <ul>
+                          <li>
+                            La prima contiene tutti gli oggetti immagine
+                          </li>
+                          <li>
+                            La seconda contiene dei valori booleani che definiscono se le immagini sono state caricate
+                          </li>
+                      </li>
+                    </ul>
+                  <li>Definisco una variabile actualImage utile per tenere traccia dell'immagine attuale e visualizzarla
+                  </li>
+                  <li>Inizializzo la lista delle immagini con nuovi oggetti immagine e la lista delle booleane a false
+                    tramite l'utilizzo di un ciclo for di 4 iterazioni</li>
+                  <li>Con un ciclo analogo carico le immagini attraverso l'istruzione img.onload() e ad ogni iterazione
+                    pongo la lista di booleane di indice i a true in maniera da essere certi che l'immagine sia stata
+                    caricata</li>
+                  <li>Dopodiché assegno ad ogni oggetto della lista immagini il proprio path</li>
+                  <li>Utilizzo il concetto di closure, ritornando una nuova funzione che:</li>
+                  <ul>
+                    <li>Controllo che l'immagine all'indice actualImage sia stata caricata</li>
+                    <li>Nel caso in cui essa sia caricata:</li>
+                    <ul>
+                      <li>Controllo che la posizione attuale non si trovi vicino ad un'ostacolo, se non si trova in
+                        prossimità di esso aggiorno la posizione verticale sottraendo ad essa la velocità del pacman
+                      </li>
+                      <li>Visualizzo l'immagine alle nuove coordinate</li>
+                      <li>Incremento la variabile actualImage e se essa è uguale a tre (ultima immagine) lo riporto a
+                        zero
+                        per ricominciare l'animazione</li>
+                    </ul>
+                  </ul>
+                </ul>
+                </li>
+                <li>down: funzione che gestisce l'animazione ed il movimento del pacman verso il basso
+                  <ul>
+                    <li>Definisco due liste:
+                      <ul>
+                        <li>
+                          La prima contiene tutti gli oggetti immagine
+                        </li>
+                        <li>
+                          La seconda contiene dei valori booleani che definiscono se le immagini sono state caricate
+                        </li>
+                    </li>
+                  </ul>
+                <li>Definisco una variabile actualImage utile per tenere traccia dell'immagine attuale e visualizzarla
+                </li>
+                <li>Inizializzo la lista delle immagini con nuovi oggetti immagine e la lista delle booleane a false
+                  tramite l'utilizzo di un ciclo for di 4 iterazioni</li>
+                <li>Con un ciclo analogo carico le immagini attraverso l'istruzione img.onload() e ad ogni iterazione
+                  pongo la lista di booleane di indice i a true in maniera da essere certi che l'immagine sia stata
+                  caricata</li>
+                <li>Dopodiché assegno ad ogni oggetto della lista immagini il proprio path</li>
+                <li>Utilizzo il concetto di closure, ritornando una nuova funzione che:</li>
+                <ul>
+                  <li>Controllo che l'immagine all'indice actualImage sia stata caricata</li>
+                  <li>Nel caso in cui essa sia caricata:</li>
+                  <ul>
+                    <li>Controllo che la posizione attuale non si trovi vicino ad un'ostacolo, se non si trova in
+                      prossimità
+                      di esso aggiorno la posizione verticale aggiungendo ad essa la velocità del pacman</li>
+                    <li>Visualizzo l'immagine alle nuove coordinate</li>
+                    <li>Incremento la variabile actualImage e se essa è uguale a tre (ultima immagine) lo riporto a zero
+                      per ricominciare l'animazione</li>
+                  </ul>
+                </ul>
+                </ul>
+                </li>
+                <li>left: funzione che gestisce l'animazione ed il movimento del pacman verso sinistra
+                  <ul>
+                    <li>Definisco due liste:
+                      <ul>
+                        <li>
+                          La prima contiene tutti gli oggetti immagine
+                        </li>
+                        <li>
+                          La seconda contiene dei valori booleani che definiscono se le immagini sono state caricate
+                        </li>
+                    </li>
+                  </ul>
+                <li>Definisco una variabile actualImage utile per tenere traccia dell'immagine attuale e visualizzarla
+                </li>
+                <li>Inizializzo la lista delle immagini con nuovi oggetti immagine e la lista delle booleane a false
+                  tramite l'utilizzo di un ciclo for di 4 iterazioni</li>
+                <li>Con un ciclo analogo carico le immagini attraverso l'istruzione img.onload() e ad ogni iterazione
+                  pongo la lista di booleane di indice i a true in maniera da essere certi che l'immagine sia stata
+                  caricata</li>
+                <li>Dopodiché assegno ad ogni oggetto della lista immagini il proprio path</li>
+                <li>Utilizzo il concetto di closure, ritornando una nuova funzione che:</li>
+                <ul>
+                  <li>Controllo che l'immagine all'indice actualImage sia stata caricata</li>
+                  <li>Nel caso in cui essa sia caricata:</li>
+                  <ul>
+                    <li>Controllo che la posizione attuale non si trovi vicino ad un'ostacolo, se non si trova in
+                      prossimità
+                      di esso aggiorno la posizione orizzontale sottraendo ad essa la velocità del pacman</li>
+                    <li>Visualizzo l'immagine alle nuove coordinate</li>
+                    <li>Incremento la variabile actualImage e se essa è uguale a tre (ultima immagine) lo riporto a zero
+                      per ricominciare l'animazione</li>
+                  </ul>
+                </ul>
+                </ul>
+                </li>
+                <li>right: funzione che gestisce l'animazione ed il movimento del pacman verso destra
+                  <ul>
+                    <li>Definisco due liste:
+                      <ul>
+                        <li>
+                          La prima contiene tutti gli oggetti immagine
+                        </li>
+                        <li>
+                          La seconda contiene dei valori booleani che definiscono se le immagini sono state caricate
+                        </li>
+                    </li>
+                  </ul>
+                <li>Definisco una variabile actualImage utile per tenere traccia dell'immagine attuale e visualizzarla
+                </li>
+                <li>Inizializzo la lista delle immagini con nuovi oggetti immagine e la lista delle booleane a false
+                  tramite l'utilizzo di un ciclo for di 4 iterazioni</li>
+                <li>Con un ciclo analogo carico le immagini attraverso l'istruzione img.onload() e ad ogni iterazione
+                  pongo la lista di booleane di indice i a true in maniera da essere certi che l'immagine sia stata
+                  caricata</li>
+                <li>Dopodiché assegno ad ogni oggetto della lista immagini il proprio path</li>
+                <li>Utilizzo il concetto di closure, ritornando una nuova funzione che:</li>
+                <ul>
+                  <li>Controllo che l'immagine all'indice actualImage sia stata caricata</li>
+                  <li>Nel caso in cui essa sia caricata:</li>
+                  <ul>
+                    <li>Controllo che la posizione attuale non si trovi vicino ad un'ostacolo, se non si trova in
+                      prossimità
+                      di esso aggiorno la posizione orizzontale aggiungendo ad essa la velocità del pacman</li>
+                    <li>Visualizzo l'immagine alle nuove coordinate</li>
+                    <li>Incremento la variabile actualImage e se essa è uguale a tre (ultima immagine) lo riporto a zero
+                      per ricominciare l'animazione</li>
+                  </ul>
+                </ul>
+                </ul>
+                </li>
+                <li>Utilizziamo il concetto di closure o funzione generatrice per tenere in memoria le immagini della
+                  funzione attuale.</li>
+                <li>Attraverso la gestione degli eventi il programma intercetta il tasto premuto, di conseguenza
+                  definisce
+                  quale funzione deve essere eseguita.</li>
+                <li>Eat: funzione che per mangiare gli oggetti all'interno della mappa
+                  <ul>
+                    <li>Se i consumabili all'interno della mappa sono stati mangiati tutti il livello finisce e si passa
+                      al successivo, altrimenti:
+                      <ul>
+                        <li>Utilizziamo una variabile (index), per l'assegnamento dei punti, che corrisponderebbe alla
+                          chiave del dizionario points da cercare</li>
+                        <li>Attraverso un doppio ciclo for scorriamo l'intera matrice, e ne controlliamo il suo valore
+                          alle posizioni attuali del pacman.
+                          <ul>
+                            <li>Nel caso in cui il valore sia zero (ball)
+                              <ul>
+                                <li>Riportiamo la cella ad un valore non utilizzato in altre parti (-1)</li>
+                                <li>Assegno valore zero ad index (chiave balls del dizionario points)</li>
+                                <li>Incremento il contatore delle caramelle mangiate</li>
+                              </ul>
+                            </li>
+                            <li>Nel caso in cui il valore sia tre (powerUp)
+                              <ul>
+                                <li>Riportiamo la cella ad un valore non utilizzato in altre parti (-1)</li>
+                                <li>Assegno valore uno ad index (chiave powerup del dizionario points)</li>
+                                <li>Assegno valore true alla variabile scared che fa partire la funzione behavior del
+                                  dizionario blueghost di ogni fanstasmino</li>
+                                <li>Riaggiorno il "cronometro" per la gestione del tempo dei fantasmini blu</li>
+                              </ul>
+                            </li>
+                            <li>Controlliamo ogni altro indice corrispondete a tutti gli altri consumabili presenti e
+                              nel caso in cui il valore coincida:
+                              <ul>
+                                <li>Riportiamo la cella ad un valore non utilizzato in altre parti (-1)</li>
+                                <li>Assegniamo il valore corrispondente ad index (chiave del consumabile trovato
+                                  all'interno del dizionario points)</li>
+                              </ul>
+                            </li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                </ul>
+                </p>
+              </div>
+            </section>
+
+            <section id="blinky">
+              <div class="row">
+                <ul class="list-unstyled">
+                  <li><strong>Oggetto <b>Blinky</b>:</strong><br></li>
+                  <ul>
+                    <li>i e j: posizioni del fantasmino nella matrice</li>
+                    <li>check: variabile boolean per la visualizzazione dell'immagine</li>
+                    <li>start: variabile boolean per la gestione della partenza del fantasmino</li>
+                    <li>img: per l'utilizzo della classe Image() di JavaScript</li>
+                    <ul>
+                    </ul>
+                    <li>Funzione Draw()</li>
+                    <ul>
+                      <li>In questa funzione c'è la gestione della visualizzazione dell'immagine del fantasmino, se la
+                        variabile boolean CHECK è verà allora viene visualizzato il fantasmino tramite il metodo
+                        drawImage() del canvas. </li>
+                    </ul>
+                    <li>Funzione behavior()</li>
+                    <ul>
+                      <li>
+
+                        L'obbiettivo iniziale di Blinky, è raggiungere l'angolo in alto a destra della mappa, con il
+                        seguente algoritmo:
+                        <ul>
+                          <li>Si fa un controllo con la variabile boolean START per far partire il fantasmino,
+                            successivamente se la posizione del fantasmino non è quella desiderata, (cioè il
+                            posizionarsi nell'angolo in alto a destra) allora si fa muovere il fantasmino verso la
+                            posizione desiderata nei punti dove la mappa è libera, (cioè quando è uguale a 0) aumentardo
+                            così i contatori i e j per spostare il fantasmino sulla matrice.
+                          </li>
+                          <li>Dopo aver raggiunto l'angolo iniziale, il suo obbiettivo, è inseguire il pacman,
+                            utilizzando
+                            il seguente algoritmo:
+                            <ul>
+                              <li>
+                                Blinky esegue svariati IF a cascata nei quali controlla tutte le possibili combinazioni
+                                per inseguire il Pac-Man in tuta la mappa:
+                                <ul>
+
+                                  <li>quando il pPac-Man si troverà nella stessa colonna di Blinky (controllando le
+                                    ceselle sopra e sotto)</li>
+                                  <li>quando il Pac-Man si troverà nella stessa riga di Blinky (controllando le caselle
+                                    destra e sinistra)</li>
+                                  <li>quando il Pac-Man si troverà nella stessa diagonale in basso a destra di Blinky
+                                    (controllando le caselle in basso e a destra)</li>
+                                  <li>quando il Pac-Man si troverà nella stessa diagonale in alto a sinistra di Blinky
+                                    (controllando le caselle in alto e a sinistra) </li>
+                                  <li>quando il Pac-Man si troverà nella stessa diagonale in basso a sinitra di Blinky
+                                    (controllando le caselle in basso e a sinistra) </li>
+                                  <li>quando il Pac-Man si troverà nella stessa diagonale in alto a destra di Blinky
+                                    (controllando le caselle in alto e a destra) </li>
+                                </ul>
+                              <li>E infine la collisione col Pac-Man, cioè quando il fantasmino e il Pac-Man hanno le
+                                stesse i e j allora vengono diminuite le vite e rincomincia il livello.</li>
+                          </li>
+                        </ul>
+                        <!--All'inizio si dirige nell'angolo in alto a destra dello schermo, <u>questo fantasmino inizierà a seguire
+                              Pac-Man finchè non verrà mangiato</u>, cercando sempre di raggiungere il punto esatto in cui si trova. Con
+                              <u>l'aumentare dei livelli aumenta anche la sua velocità</u> in maniera totalmente casuale durante la partita,
+                              ma può aumentarla anche quando mancano pochi punti da mangiare.-->
+                      </li>
+                    </ul>
+                    </li>
+                  </ul>
+
+                  <li>Dizionario blueGhost</li>
+                  <ul>
+                    <li>check: variabile boolean per la visualizzazione dell'immagine</li>
+                    <li>img: per l'utilizzo della classe Image() di JavaScript</li>
+                    <li>Funzione draw()</li>
+                    <ul>
+                      <li>In questa funzione c'è la gestione della visualizzazione dell'immagine del fantasmino, se la
+                        variabile boolean CHECK (del dizionario blueGhost) è verà allora viene visualizzato il
+                        fantasmino impaurito tramite il metodo drawImage() del canvas.</li>
+                    </ul>
+                    <li>Funzione behavior()</li>
+                    <ul>
+                      <li>
+                        L'obbiettivo, è stare il più possibile distante dal pacman quando da esso viene mangiato un
+                        power up. Ciò è implementato con il seguente algoritmo:
+                        <ul>
+                          <ul>
+                            <li>Esegue gli stessi controlli della funzione behaivor() solamente dalla parte opposta da
+                              dove è il pac-Man, per scappare da esso.
+                            </li>
+                          </ul>
+                        </ul>
+                      </li>
+                    </ul>
+                  </ul>
+                </ul>
+                </ul>
+              </div>
+            </section>
+
+            <section id="inky">
+              <div class="row">
+                <ul class="list-unstyled">
+                  <li><strong>Oggetto <b>Inky</b>:</strong><br></li>
+                  <ul>
+                    <li>i e j: posizioni del fantasmino nella matrice</li>
+                    <li>check: variabile boolean per la visualizzazione dell'immagine</li>
+                    <li>start: variabile boolean per la gestione della partenza del fantasmino</li>
+                    <li>img: per l'utilizzo della classe Image() di JavaScript</li>
+                    <ul>
+                    </ul>
+                    <li>Funzione Draw()</li>
+                    <ul>
+                      <li>In questa funzione c'è la gestione della visualizzazione dell'immagine del fantasmino, se la
+                        variabile boolean CHECK è verà allora viene visualizzato il fantasmino tramite il metodo
+                        drawImage() del canvas. </li>
+                    </ul>
+                    <li>Funzione behavior()</li>
+                    <ul>
+                      <li>
+
+                        L'obbiettivo iniziale di Inky, è accerchiare pacman sulla base della sua posizione e quella di
+                        Blinky, con il seguente algoritmo:
+                        <ul>
+                          <li>Si fa un controllo con la variabile boolean START per far partire il fantasmino,
+                            successivamente se la posizione del fantasmino non è quella desiderata, (cioè una posizione
+                            al di fuori della cella dei fantasmini) allora si fa muovere il fantasmino verso una
+                            posizione dove la mappa è libera, (cioè quando è uguale a 0) aumentardo così i contatori i e
+                            j per spostare il fantasmino sulla matrice.
+                          </li>
+                          <li>Dopo aver raggiunto la posizione di uscita della cella, il suo obbiettivo, è quello di
+                            accerchiare il Pac-Man tramite la posizione di blinky,
+                            utilizzando
+                            il seguente algoritmo:
+                            <ul>
+                              <li>
+                                Inky esegue svariati IF a cascata nei quali controlla tutte le possibili combinazioni
+                                per inseguire il Pac-Man tramite la posizione di Blinky in tuta la mappa:
+                                <ul>
+
+                                  <li>calcolo della posizione di destinazione tramite le variabile targetI (la quale
+                                    rappresenta la riga di destinazione) e targetJ (rappresenta la colonna di
+                                    destinazione). La destinaizone viene calcolata raddopiando la distanza tra il
+                                    Pac-Man e Blinky.</li>
+                                  <li>calcolo della differenza tra la posizione attuale di Inky e la posizione di
+                                    destinazione. La differenza viene calcolata sottraendo alla destinazione la
+                                    posizione di Inky, inserendele nelle variabili (diffI e diffJ)</li>
+                                  <li>Movimento di Inky verso la destinazione. Se la differenza in righe è maggiore
+                                    della differenza in colonne Inky tenta di muoversi verticalmente verso la
+                                    destinazione. Se diffI è positivo Inky si muove verso il basso altrimenti si muove
+                                    verso l'alto (se le caselle sono vuote).Se diffJ è maggiore alla differenza in righe
+                                    Inky tenta di muoversi orizontalmente verso la destinazione. Se diffJ è positivo
+                                    Inky si muove verso destra, altrimenti verso sinistra (se le caselle sono vuote).
+                                  </li>
+
+                                  <li>E infine la collisione col Pac-Man, cioè quando il fantasmino e il Pac-Man hanno
+                                    le stesse i e j allora vengono diminuite le vite e rincomincia il livello.</li>
+                              </li>
+                            </ul>
+                            <!--La sua direzione si basa sulla posizione di Pac-Man e quella
+                        di Blinky, in maniera da <u>accerchiare Pac-man prendendolo di fronte</u>, nel caso in cui blinky venisse
+                        mangiato si rifugia in basso a sinistra -->
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+
+                    <li>Dizionario blueGhost</li>
+                    <ul>
+                      <li>check: variabile boolean per la visualizzazione dell'immagine</li>
+                      <li>img: per l'utilizzo della classe Image() di JavaScript</li>
+                      <li>Funzione draw()</li>
+                      <ul>
+                        <li>In questa funzione c'è la gestione della visualizzazione dell'immagine del fantasmino, se la
+                          variabile boolean CHECK (del dizionario blueGhost) è verà allora viene visualizzato il
+                          fantasmino impaurito tramite il metodo drawImage() del canvas.</li>
+                      </ul>
+                      <li>Funzione behavior()</li>
+                      <ul>
+                        <li>
+                          L'obbiettivo, è stare il più possibile distante dal pacman quando da esso viene mangiato un
+                          power up. Ciò è implementato con il seguente algoritmo:
+                          <ul>
+                            <ul>
+                              <li>Esegue gli stessi controlli della funzione behaivor() solamente dalla parte opposta da
+                                dove è il pac-Man, per scappare da esso.
+                              </li>
+                            </ul>
+                          </ul>
+                        </li>
+                      </ul>
+                    </ul>
+                  </ul>
+                </ul>
+              </div>
+            </section>
+
+            <section id="pinky">
+              <div class="row">
+                <ul class="list-unstyled">
+                  <li><strong>Oggetto <b>Pinky</b>:</strong><br></li>
+                  <ul>
+                    <li>i e j: posizioni del fantasmino nella matrice</li>
+                    <li>check: variabile boolean per la visualizzazione dell'immagine</li>
+                    <li>start: variabile boolean per la gestione della partenza del fantasmino</li>
+                    <li>img: per l'utilizzo della classe Image() di JavaScript</li>
+                    <ul>
+                    </ul>
+                    <li>Funzione Draw()</li>
+                    <ul>
+                      <li>In questa funzione c'è la gestione della visualizzazione dell'immagine del fantasmino, se la
+                        variabile boolean CHECK è verà allora viene visualizzato il fantasmino tramite il metodo
+                        drawImage() del canvas. </li>
+                    </ul>
+                    <li>Funzione behavior()</li>
+                    <ul>
+                      <li>
+
+                        L'obbiettivo primario di Pinky è stare quattro spazi sopra di pacman cercando di mantenere
+                        sempre la sua stessa ascissa, a meno che il pacman non lo stia inseguendo, in tal caso esso si
+                        allontanerà prendendo una direzione casuale Attraverso il seguente algoritmo:
+                        <ul>
+                          <li>
+                            Si fa un controllo con la variabile boolean START per far partire il fantasmino,
+                            successivamente se la posizione del fantasmino non è quella desiderata, (cioè una posizione
+                            al di fuori della cella dei fantasmini) allora si fa muovere il fantasmino verso una
+                            posizione dove la mappa è libera, (cioè quando è uguale a 0) aumentardo così i contatori i e
+                            j per spostare il fantasmino sulla matrice.
+                          </li>
+                          <li>Dopo aver raggiunto la posizione di uscita della cella, il suo obbiettivo e quello scritto
+                            precedentemente,
+                            utilizzando
+                            il seguente algoritmo:
+                            <ul>
+                              <li>
+                                Pinky esegue svariati IF a cascata nei quali controlla tutte le possibili combinazioni
+                                del comportamente di Pinky in tuta la mappa:
+                                <ul>
+
+                                  <li>calcolo della posizione di destinazione basata sulla direzione di Pac-Man. Se
+                                    Pac-man di muove verso l'alto la destinazione è 4 righe sotto Pac-man, se Pac-man si
+                                    muove verso il vasso la destinazione è di 4 righe sopra Pac-man, se Pac-mansi muove
+                                    verso sinistra la destinazione è 4 colonne a sinistra di Pac-man, se Pac-man si
+                                    muove verso destra la destinazione è 4 colonne a destra di Pac-man.</li>
+                                  <li>Correzione della posizione di destinazione. targI e targJ vengono limitati ai
+                                    confini della mappa utilizzando Math.max e Math.min</li>
+                                  <li>
+                                    Movimento di Pinky verso la destinazione.
+                                    Si calcola la differenza tra la posizione attuale di Pinky e la destinazione.
+                                    Se la differenza in righe è maggiore della differenza in colonne, Pinky tenta di
+                                    muoversi verticalmente verso la destinazione.
+                                    Se diffI è positivo, Pinky si muove verso il basso altrimenti si muove verso l'alto
+                                    (se le caselle sono vuote).
+                                    Se la differenza in colonne è maggiore o uguale alla differenza in righe, Pinky
+                                    tanta di muoversi orizzontalmente verso la destinazione.
+                                    Se diffJ è positivo, Pinky si muove verso destra, altrimenti di muove verso sinistra
+                                    (se le caselle sono vuote).
+                                  </li>
+
+                                  <li>E infine la collisione col Pac-Man, cioè quando il fantasmino e il Pac-Man hanno
+                                    le stesse i e j allora vengono diminuite le vite e rincomincia il livello.</li>
+                              </li>
+                            </ul>
+                            <!--
+                            Se il giocatore si avvicina, esso si dirigerà sempre verso il punto situato quattro spazi di fronte a Pac-Man. 
+                            Esso, quindi cercherà sempre di tendere imboscate negli spazi stretti, ma <u>
+                            se lo puntate direttamente finirà per allontanarsi</u> perchè il suo bersaglio si troverà
+                            direttamente alle sue spalle.-->
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+
+                    <li>Dizionario blueGhost</li>
+                    <ul>
+                      <li>check: variabile boolean per la visualizzazione dell'immagine</li>
+                      <li>img: per l'utilizzo della classe Image() di JavaScript</li>
+                      <li>Funzione draw()</li>
+                      <ul>
+                        <li>In questa funzione c'è la gestione della visualizzazione dell'immagine del fantasmino, se la
+                          variabile boolean CHECK (del dizionario blueGhost) è verà allora viene visualizzato il
+                          fantasmino impaurito tramite il metodo drawImage() del canvas.</li>
+                      </ul>
+                      <li>Funzione behavior()</li>
+                      <ul>
+                        <li>
+                          L'obbiettivo, è stare il più possibile distante dal pacman quando da esso viene mangiato un
+                          power up. Ciò è implementato con il seguente algoritmo:
+                          <ul>
+                            <ul>
+                              <li>Esegue gli stessi controlli della funzione behaivor() solamente dalla parte opposta da
+                                dove è il pac-Man, per scappare da esso.
+                              </li>
+                            </ul>
+                          </ul>
+                        </li>
+                      </ul>
+                    </ul>
+                  </ul>
+                </ul>
+              </div>
+            </section>
+
+            <section id="clyde">
+              <div class="row">
+                <ul class="list-unstyled">
+                  <li><strong>Oggetto <b>Clyde</b>:</strong><br></li>
+                  <ul>
+                    <li>i e j: posizioni del fantasmino nella matrice</li>
+                    <li>check: variabile boolean per la visualizzazione dell'immagine</li>
+                    <li>start: variabile boolean per la gestione della partenza del fantasmino</li>
+                    <li>img: per l'utilizzo della classe Image() di JavaScript</li>
+                    <ul>
+                      <li>Usa la classe Image() di JavaScript</li>
+                    </ul>
+                    <li>Funzione Draw()</li>
+                    <ul>
+                      <li>In questa funzione c'è la gestione della visualizzazione dell'immagine del fantasmino, se la
+                        variabile boolean CHECK è verà allora viene visualizzato il fantasmino tramite il metodo
+                        drawImage() del canvas. </li>
+                    </ul>
+                    <li>Funzione behavior()</li>
+                    <!--
+                          Se Pac-Man si trova nel raggio di 8 caselle, <u>si rifugerà nella parte in basso</u> a sinistra dello schermo,
+                          se invece è lontano, <u>inizierà a dargli la caccia</u>, come Blinky.
+                          -->
+                    <ul>
+                      <li>
+
+                        L'obbiettivo primario di Clyde è stare distante 8 spazi da pacman, in altro caso si dirigerà
+                        verso l'angolo in basso a sinistra dello schermo:
+                        <ul>
+                          <li>
+                            Si fa un controllo con la variabile boolean START per far partire il fantasmino,
+                            successivamente se la posizione del fantasmino non è quella desiderata, (cioè una posizione
+                            al di fuori della cella dei fantasmini) allora si fa muovere il fantasmino verso una
+                            posizione dove la mappa è libera, (cioè quando è uguale a 0) aumentardo così i contatori i e
+                            j per spostare il fantasmino sulla matrice.
+                          </li>
+                          <li>Dopo aver raggiunto la posizione di uscita della cella, il suo obbiettivo e quello scritto
+                            precedentemente,
+                            utilizzando
+                            il seguente algoritmo:
+                            <ul>
+                              <li>
+                                Clyde esegue svariati IF a cascata nei quali controlla tutte le possibili combinazioni
+                                del comportamente di Clyde in tutta la mappa:
+                                <ul>
+
+                                  <li>calcolo della posizione di destinazione basata sulla distanza di Pac-Man. Se
+                                    Pac-man si trova a una distanza maggiore 8 caselle dalla posizione di Clyde, Clyde
+                                    si muoverà con l'algoritmo di Blinky spiegato antecedentemente.</li>
+                                  <li>Altrimenti si dirigerà muovendosi a sinistra e in basso verso la posizione in
+                                    basso a sinistra dello schermo</li>
+
+
+                                  <li>E infine la collisione col Pac-Man, cioè quando il fantasmino e il Pac-Man hanno
+                                    le stesse i e j allora vengono diminuite le vite e rincomincia il livello.</li>
+                              </li>
+                            </ul>
+                        </ul>
+                    </ul>
+
+
+                    <ul>
+                      <li>check: variabile boolean per la visualizzazione dell'immagine</li>
+                      <li>img: per l'utilizzo della classe Image() di JavaScript</li>
+                      <li>Funzione draw()</li>
+                      <ul>
+                        <li>In questa funzione c'è la gestione della visualizzazione dell'immagine del fantasmino, se la
+                          variabile boolean CHECK (del dizionario blueGhost) è verà allora viene visualizzato il
+                          fantasmino impaurito tramite il metodo drawImage() del canvas.</li>
+                      </ul>
+                      <li>Funzione behavior()</li>
+                      <ul>
+                        <li>
+                          L'obbiettivo, è stare il più possibile distante dal pacman quando da esso viene mangiato un
+                          power up. Ciò è implementato con il seguente algoritmo:
+                          <ul>
+                            <ul>
+                              <li>Esegue gli stessi controlli della funzione behaivor() solamente dalla parte opposta da
+                                dove è il pac-Man, per scappare da esso.
+                              </li>
+                            </ul>
+                          </ul>
+                        </li>
+                      </ul>
+                    </ul>
+                  </ul>
+                </ul>
+              </div>
+            </section>
+
+            <section id="points">
+              <div class="row">
+                <ul class="list-unstyled">
+                  <li>
+                    <p><strong>Oggetto <b>points</b>:</strong><br>
+                      Sarà un dizionario di dizionari, il quale avrà le seguenti chiavi:</p>
+                  </li>
+                  <li>Per la rappresentazione e la gestione di tutti i consumabili utilizziamo una matrice (pointsMap),
+                    con valori diversi che corrispondono
+                    ad ogni tipo di consumabile</li>
+                  <ul>
+                    <li><b>balls (punti di base), che ha le seguenti chiavi:</b></li>
+                    <ul>
+                      <li>point: 10 (punti percepiti da ogni "ball")</li>
+                      <li>x: posizione di ascissa della singola ball all'interno del campo</li>
+                      <li>y: posizione di ordinata della singola ball all'interno del campo</li>
+                      <li>Dim: dimensione della singola "ball"</li>
+                      <li>draw: Funzione per la rappresentazione grafica di tutte le ball</li>
+                      <ul>
+                        <li>
+                          Se nella posizione attuale della matrice è presente il valore "0", (strada libera), vi disegna
+                          un cerchio, con dimesioni "dim*2"
+                          e con coordinate di partenza la posizione attuale nella lista moltiplicato per "dim + dim/2".
+                        </li>
+                      </ul>
+                    </ul>
+                    <li><b>Powerup:</b></li>
+                    <ul>
+                      <li>point: 50 (punti percepiti da ogni powerup)</li>
+                      <li>x: posizione di ascissa della singolo powerup all'interno del campo</li>
+                      <li>y: posizione di ordinata del singolo powerup all'interno del campo</li>
+                      <li>Dim: dimensione del singolo powerup</li>
+                      <li>Ability: funzione per la gestione degli effetti nel gioco dati da questo consumabile:
+                        <ul>
+                          <li>Per ogni fantasmino richiamiamo la funzione draw e behavior per l'attivazione dei
+                            "fantasmini blu"</li>
+                        </ul>
+                      </li>
+                      <li>draw: Funzione per la rappresentazione grafica di tutti i power ups</li>
+                      <ul>
+                        <li>
+                          Se nella posizione attuale della matrice è presente il valore "3", (powerUp):
+                          <ul>
+                            Ogni 25 frames disegna un cerchio con dimensioni dim e successivamente un cerchio nella
+                            stessa posizione con dimensioni dim*2,
+                            in maniera da ottenere il celebre effetto "sfavillante".
+                          </ul>
+                        </li>
+                      </ul>
+                    </ul>
+                    <li><b>cherry:</b></li>
+                    <ul>
+                      <li>point: 100 (punti percepiti da ogni ciliegia)</li>
+                      <li>achieve: punti necessari per cui la ciligia spawni (70)</li>
+                      <li>img: oggetto immagine della ciliegia</li>
+                      <li>diam: dimensione della singola ciliegia</li>
+                      <li>check: variabile di controllo per il caricamento dell'immagine</li>
+                      <li>draw: Funzione per la rappresentazione grafica di tutte le ciliegie</li>
+                      <ul>
+                        <li>
+                          Se la variabile check ha valore true, (l'immagine è caricata):
+                          <ul>
+                            Rappresentiamo l'immagine nella posizione di spawn del pacman.
+                          </ul>
+                        </li>
+                      </ul>
+                    </ul>
+                    <li><b>strawberry:</b></li>
+                    <ul>
+                      <li>point: 300 (punti percepiti da ogni fragola)</li>
+                      <li>achieve: punti necessari per cui la fragola spawni (170)</li>
+                      <li>img: oggetto immagine della fragola</li>
+                      <li>diam: dimensione della singola fragola</li>
+                      <li>check: variabile di controllo per il caricamento dell'immagine</li>
+                      <li>draw: Funzione per la rappresentazione grafica di tutte le fragole</li>
+                      <ul>
+                        <li>
+                          Se la variabile check ha valore true, (l'immagine è caricata):
+                          <ul>
+                            Rappresentiamo l'immagine nella posizione di spawn del pacman.
+                          </ul>
+                        </li>
+                      </ul>
+                    </ul>
+                    <li><b>orange:</b></li>
+                    <ul>
+                      <li>point: 500 (punti percepiti da ogni arancia)</li>
+                      <li>achieve: punti necessari per cui l'arancia spawni (270)</li>
+                      <li>img: oggetto immagine della fragola</li>
+                      <li>diam: dimensione della singola arancia</li>
+                      <li>check: variabile di controllo per il caricamento dell'immagine</li>
+                      <li>draw: Funzione per la rappresentazione grafica di tutte le arancie</li>
+                      <ul>
+                        <li>
+                          Se la variabile check ha valore true, (l'immagine è caricata):
+                          <ul>
+                            Rappresentiamo l'immagine nella posizione di spawn del pacman.
+                          </ul>
+                        </li>
+                      </ul>
+                    </ul>
+                    <li><b>apple</b></li>
+                    <ul>
+                      <li>point: 700 (punti percepiti da ogni mela)</li>
+                      <li>achieve: punti necessari per cui la mela spawni (470)</li>
+                      <li>img: oggetto immagine della mela</li>
+                      <li>diam: dimensione della singola mela</li>
+                      <li>check: variabile di controllo per il caricamento dell'immagine</li>
+                      <li>draw: Funzione per la rappresentazione grafica di tutte le mele</li>
+                      <ul>
+                        <li>
+                          Se la variabile check ha valore true, (l'immagine è caricata):
+                          <ul>
+                            Rappresentiamo l'immagine nella posizione di spawn del pacman.
+                          </ul>
+                        </li>
+                      </ul>
+                    </ul>
+                    <li><b>grape</b></li>
+                    <ul>
+                      <li>point: 1000 (punti percepiti da ogni grappolo d'uva)</li>
+                      <li>achieve: punti necessari per cui il grappolo d'uva spawni (670)</li>
+                      <li>img: oggetto immagine del grappolo d'uva</li>
+                      <li>diam: dimensione della singola fragola</li>
+                      <li>check: variabile di controllo per il caricamento dell'immagine</li>
+                      <li>draw: Funzione per la rappresentazione grafica di tutti grappoli d'uva</li>
+                      <ul>
+                        <li>
+                          Se la variabile check ha valore true, (l'immagine è caricata):
+                          <ul>
+                            Rappresentiamo l'immagine nella posizione di spawn del pacman.
+                          </ul>
+                        </li>
+                      </ul>
+                    </ul>
+                    <li><b>galaxian</b></li>
+                    <ul>
+                      <li>point: 2000 (punti percepiti da ogni navicella)</li>
+                      <li>achieve: punti necessari per cui la navicella spawni (870)</li>
+                      <li>img: oggetto immagine della navicella</li>
+                      <li>diam: dimensione della singola navicella</li>
+                      <li>check: variabile di controllo per il caricamento dell'immagine</li>
+                      <li>draw: Funzione per la rappresentazione grafica di tutte le navicella</li>
+                      <ul>
+                        <li>
+                          Se la variabile check ha valore true, (l'immagine è caricata):
+                          <ul>
+                            Rappresentiamo l'immagine nella posizione di spawn del pacman.
+                          </ul>
+                        </li>
+                      </ul>
+                    </ul>
+                    <li><b>bell</b></li>
+                    <ul>
+                      <li>point: 3000 (punti percepiti da ogni campana)</li>
+                      <li>achieve: punti necessari per cui la campana spawni (1070)</li>
+                      <li>img: oggetto immagine della campana</li>
+                      <li>diam: dimensione della singola campana</li>
+                      <li>check: variabile di controllo per il caricamento dell'immagine</li>
+                      <li>draw: Funzione per la rappresentazione grafica di tutte le campane</li>
+                      <ul>
+                        <li>
+                          Se la variabile check ha valore true, (l'immagine è caricata):
+                          <ul>
+                            Rappresentiamo l'immagine nella posizione di spawn del pacman.
+                          </ul>
+                        </li>
+                      </ul>
+                    </ul>
+                    <li><b>key</b></li>
+                    <ul>
+                      <li>point: 5000 (punti percepiti da ogni chiave)</li>
+                      <li>achieve: punti necessari per cui la chiave spawni (1270)</li>
+                      <li>img: oggetto immagine della chiave</li>
+                      <li>diam: dimensione della singola chiave</li>
+                      <li>check: variabile di controllo per il caricamento dell'immagine</li>
+                      <li>draw: Funzione per la rappresentazione grafica di tutte le chiave</li>
+                      <ul>
+                        <li>
+                          Se la variabile check ha valore true, (l'immagine è caricata):
+                          <ul>
+                            Rappresentiamo l'immagine nella posizione di spawn del pacman.
+                          </ul>
+                        </li>
+                      </ul>
+                    </ul>
+                  </ul>
+                </ul>
+              </div>
+            </section>
+
+            <section id="life">
+              <div class="row">
+                <ul class="list-unstyled">
+                  <li>
+                    <p><strong>Oggetto <b>Vite</b>:</strong><br>
+                  </li>
+                  <ul>
+                    <li>Vite: Rappresenta le vite attuali (inzialmante 3)</li>
+                    <li>Draw (Funzione per la rappresentazione e la gestione delle vite del giocatore)
+                      <ul>
+                        <li>Utilizziamo il concetto di closure per mantenere le variabili utilizzate in questa funzione
+                        </li>
+                        <li>Creiamo un'oggetto immagine per rappresentare graficamente le vite attuali e attraverso un
+                          ciclo che itera sulle vite le rappresentiamo
+                          nella parte bassa del canvas.</li>
+                        <li>Dopodichè viene fatta una serie di controlli per la gestione delle vite:
+                          <ul>
+                            <li>Se le vite sono zero, la variabile finisched (variabile di controllo per lo svolgimento
+                              della partita) viene inizializzato a true</li>
+                            <li>Se lo score equivale a 10000 punti le vite vengono incrementate di 1.</li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </ul>
+                </p>
+              </div>
+            </section>
+
+            <section id="field">
+              <div class="row">
+                <ul class="list-unstyled">
+                  <li>
+                    <p><strong>Oggetto <b>Campo</b>:</strong><br>
+                  </li>
+                  <ul>
+                    <li>wallSize:</li>
+                    <ul>
+                      <li>è la dimensione di ciascun ostacolo nella mappa</li>
+                    </ul>
+                    <li>Funzione draw(): </li>
+                    <ul>
+                      <li>
+                        Premettendo che questa funzione utilizza una matrice globale, (map) per disegnare la mappa, la
+                        quale ha valori:
+                        <ul>
+                          <li>
+                            0: strada libera da ostacoli,
+                          </li>
+                          <li>
+                            1: ostacolo,
+                          </li>
+                          <li>
+                            -1: strada libera da ostacoli ma senza oggetti e senza la possibilità di accedervi.
+                          </li>
+                        </ul>
+                      <li>Per il disegno della mappa ci siamo basati su due cicli for che iterano sulle righe e le
+                        colonne della matrice map.</li>
+                      <ul>
+                        <li>Se nella posizione attuale della matrice è presente il valore "1", (ostacolo), vi disegna un
+                          rettangolo, con dimesioni "wallSize"
+                          e con coordinate di partenza la posizione attuale nella lista moltiplicato per wallSize.</li>
+                      </ul>
+                      </li>
+                    </ul>
+                  </ul>
+                  </p>
+              </div>
+            </section>
+          </section>
+          <hr class="divider">
+          <section id="wireframes">
+            <h2>Wireframes/Immagini</h2>
+            <div class="row">
+              <p><strong>Immagini dei <b>Fantasmini</b> e del <b>PacMan</b>:</strong></p>
+              <div class="container">
+                <div class="row">
+                  <div class="col">
+                    <img src="Project/assets/Ghost/Blinky.png" alt="Blinky">
+                  </div>
+                  <div class="col">
+                    <img src="Project/assets/Ghost/Inky.png" alt="Inky">
+                  </div>
+                  <div class="col">
+                    <img src="Project/assets/Ghost/Pinky.png" alt="Pinky">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <img src="Project/assets/Ghost/Clyde.png" alt="Clyde">
+                  </div>
+                  <div class="col">
+                    <img src="Project/assets/Ghost/BlueGhost.png" alt="Blue Ghost">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <img src="Project/assets/RIGHT-PacMan/1.png" alt="1 PacMan">
+                  </div>
+                  <div class="col">
+                    <img src="Project/assets/RIGHT-PacMan/2.png" alt="2 PacMan">
+                  </div>
+                  <div class="col">
+                    <img src="Project/assets/RIGHT-PacMan/3.png" alt="3 PacMan">
+                  </div>
+                </div>
+                <br>
+                <div class="row">
+                  <p><b>Le tre immagini del pacman sono ripetute per i quattro versi possibili</b></p>
+                </div>
+              </div>
+
+            </div>
+            <div class="row">
+              <p><strong>Immagini dei <b>consumabili</b> eccetto il <b>power Up</b> e <b>pallini</b>:</strong></p>
+              <div class="container">
+                <div class="row">
+                  <div class="col">
+                    <img src="Project/assets/Points/Ciliegia.png" alt="Ciliegia">
+                  </div>
+                  <div class="col">
+                    <img src="Project/assets/Points/fragola.png" alt="fragola">
+                  </div>
+                  <div class="col">
+                    <img src="Project/assets/Points/Arancia.png" alt="arancia">
+                  </div>
+                  <div class="col">
+                    <img src="Project/assets/Points/Apple.png" alt="mela">
+                  </div>
+                  <div class="col">
+                    <img src="Project/assets/Points/Uva.png" alt="uva">
+                  </div>
+                  <div class="col">
+                    <img src="Project/assets/Points/Navicella.png" alt="navicella">
+                  </div>
+                  <div class="col">
+                    <img src="Project/assets/Points/Campana.png" alt="campana">
+                  </div>
+                  <div class="col">
+                    <img src="Project/assets/Points/Chiave.png" alt="chiave">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+    <!-- Content end -->
+
+    <!-- Footer
+    ============================ -->
+    <footer id="footer" class="section bg-dark footer-text-light">
+      <div class="container">
+
+        <p class="text-center">ITT e LSSA "Molinari" - Milano <a href="progettimolinari.it">Progetti Molinari</a>. Tutti
+          i diritti riservati</p>
+      </div>
+    </footer>
+    <!-- Footer end -->
+
+  </div>
+  <!-- Document Wrapper end -->
+
+  <!-- Back To Top -->
+  <a id="back-to-top" data-toggle="tooltip" title="Back to Top" href="javascript:void(0)"><i
+      class="fa fa-chevron-up"></i></a>
+
+  <!-- JavaScript
+  ============================ -->
+  <script src="./assets/vendor/jquery/jquery.min.js"></script>
+  <script src="./assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- Highlight JS -->
+  <script src="./assets/vendor/highlight.js/highlight.min.js"></script>
+  <!-- Easing -->
+  <script src="./assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <!-- Magnific Popup -->
+  <script src="./assets/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+  <!-- Custom Script -->
+  <script src="./assets/js/theme.js"></script>
+</body>
+
+</html>

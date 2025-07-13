@@ -1,6 +1,6 @@
 # 🟡 Pac-Man 
 
-Un semplice clone del classico gioco **Pac-Man**, sviluppato con [HTML, CSS, JS. Questo progetto è stato realizzato a scopo educativo e di divertimento, cercando di riprodurre il gameplay dell'originale arcade
+Un semplice clone del classico gioco **Pac-Man**, sviluppato con HTML, CSS, JS. Questo progetto è stato realizzato a scopo educativo e di divertimento, cercando di riprodurre il gameplay dell'originale arcade
 
 
 ## 🧱 Caratteristiche

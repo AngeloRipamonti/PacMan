@@ -1,0 +1,1 @@
+© Copyright 2024 by [Angelo Ripamonti](https://github.com/AngeloRipamonti), [Avveduto Luca](https://github.com/LucaAvveduto) e [Kotis Alexandros](https://github.com/AlexandrosKotis) - All rights reserved.
